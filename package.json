@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "uuid": "^10.0.0",
+    "yargs": "^17.7.2"
+  },
+  "name": "cita_medica",
+  "description": "En este desafío validaremos nuestros conocimientos de manejo de dependencias y el uso de paquetes en Node. Para lograrlo, necesitarás aplicar tus habilidades en el uso de NPM, concretamente en el conocimiento de paquetes que no procesan datos, así como en la utilización de paquetes NPM diseñados específicamente para el procesamiento de datos.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

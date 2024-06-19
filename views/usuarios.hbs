@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuarios</title>
+</head>
+
+<body>
+    <h1>Lista de Usuarios</h1>
+    <ul>
+        <h2>Mujeres</h2>
+
+        {{#each usersFemale}}
+        <li>
+            Nombre: {{this.first}} - Apellido: {{this.last}} - ID: {{this.id}} - Timestamp: {{this.timestamp}}
+        </li>
+        {{/each}}
+
+
+        <h2>Hombres</h2>
+
+        {{#each usersMale}}
+        <li>
+            Nombre: {{this.first}} - Apellido: {{this.last}} - ID: {{this.id}} - Timestamp: {{this.timestamp}}
+        </li>
+        {{/each}}
+
+    </ul>
+</body>
+
+
+
+
+</html>
